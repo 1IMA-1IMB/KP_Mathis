@@ -1,0 +1,30 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/watercolor-halloween-background_52683-43698.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    color: orangered;
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orangered;
+    text-align: center;
+}
+
+button {
+    color: green;
+    background-color: orangered;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
