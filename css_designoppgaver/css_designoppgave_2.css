@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: solid black 2px;
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    border: solid black 2px;
+    padding: 20px;
+    width: 5%;
+    height: 93%;
+    font-size: 3em;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    border: solid black 2px;
+    padding: 20px;
+    width: 100%;
+    height: 15%;
+}
+
+.box3 {
+    display: flex;
+    align-items: center;
+    border: solid black 2px;
+    padding: 20px;
+    width: 5%;
+    height: 93%;
+    font-size: 3em;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
