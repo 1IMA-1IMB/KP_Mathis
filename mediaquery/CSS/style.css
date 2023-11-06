@@ -1,0 +1,50 @@
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    background-color: white;
+}
+
+.middle img {
+    height: 70%;
+    width: 30%;
+    padding: 1em;
+}
+
+.footer {
+    background-color: lightgray;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    .middle {
+        padding: 1em;
+        flex-wrap: wrap;
+    }
+
+    .middle img {
+        height: 70%;
+        width: 70%;
+        padding: 1em;
+    }
+
+
+  }
