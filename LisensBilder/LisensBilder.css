@@ -1,0 +1,150 @@
+.header{
+    background-color: lightskyblue;
+    border: solid black 5px;
+}
+
+.bilde1{
+    font-size: 11px;
+    border: solid black 5px;
+    background-color: lightgoldenrodyellow;
+}
+
+.bilde1 h1{
+    color: blue;
+}
+
+.bilde1 a{
+    color: red;
+}
+
+.bilde2{
+    font-size: 11px;
+    border: solid aqua 5px;
+    background-color: black;
+}
+
+.bilde2 h1{
+    color: aqua;
+}
+
+.bilde2 a{
+    color: red;
+}
+
+.bilde3{
+    font-size: 11px;
+    border: solid aqua 5px;
+    background-color: sandybrown;
+}
+
+.bilde3 h1{
+    color: brown;
+}
+
+.bilde3 a{
+    color: green;
+}
+
+.bilde4{
+    font-size: 11px;
+    border: solid lightpink 5px;
+    background-color: skyblue;
+}
+
+.bilde4 h1{
+    color: pink;
+}
+
+.bilde4 a{
+    color: palevioletred;
+}
+
+.bilde5{
+    font-size: 11px;
+    border: solid skyblue 5px;
+    background-color: yellow;
+}
+
+.bilde5 h1{
+    color: skyblue;
+}
+
+.bilde5 a{
+    color: black;
+}
+
+.bilde6{
+    font-size: 11px;
+    border: solid blue;
+    background-color: darkgray;
+}
+
+.bilde6 h1{
+    color: red;
+}
+
+.bilde6 a{
+    color: yellow;
+}
+
+.bilde7{
+    font-size: 11px;
+    border: solid lightseagreen;
+    background-color: darkslategray;
+}
+
+.bilde7 h1{
+    color: red;
+}
+
+.bilde7 a{
+    color: lightseagreen;
+}
+
+.bilde8{
+    font-size: 11px;
+    border: solid purple;
+    background-color: black;
+}
+
+.bilde8 h1{
+    color: orangered;
+}
+
+.bilde8 a{
+    color: lightblue;
+}
+
+.bilde9{
+    font-size: 11px;
+    border: solid burlywood;
+    background-color: yellow;
+}
+
+.bilde9 h1{
+    color: darkblue;
+}
+
+.bilde9 a{
+    color: darkgreen;
+}
+
+.bildeX{
+    font-size: 11px;
+    border: solid grey 5px;
+    background-color: white;
+}
+
+.bildeX h1{
+    color: grey;
+}
+
+.bildeX a{
+    color: greenyellow;
+}
+.footer{
+    border: solid black 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
