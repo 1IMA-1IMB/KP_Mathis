@@ -1,3 +1,4 @@
+//funksjonen som definerer
 function convertUnits() {
     let liters = parseFloat(document.getElementById("litersInput").value);
 
@@ -15,6 +16,8 @@ function convertUnits() {
     
 }
 
+
+//funksjonen som kobler til let til funksjoner
 function convertToLiters() {
     let units = parseFloat(document.getElementById("unitsInput").value);
     let unitType = document.getElementById("unitType").value;
@@ -53,21 +56,25 @@ function isPalindrome(str) {
     return cleanStr === cleanStr.split('').reverse().join('');
 }
 
+//Gallons
 function convertGallonsToLiters(gallons) {
     let gallonToLiter = 3.78541;
     return gallons * gallonToLiter;
 }
 
+//Ounces
 function convertOuncesToLiters(ounces) {
     let ounceToLiter = 0.0295735;
     return ounces * ounceToLiter;
 }
 
+//Cups
 function convertCupsToLiters(cups) {
     let cupToLiter = 0.236588;
     return cups * cupToLiter;
 }
 
+//Spiseskjeer
 function convertSpiseskjeerToLiters(spiseskjeer) {
     let spiseskjeToLiter = 0.015;
     return spiseskjeer * spiseskjeToLiter;
