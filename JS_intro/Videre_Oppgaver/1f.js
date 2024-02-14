@@ -3,7 +3,7 @@ let totaltKlippedeSauer = 0;
 function klippSauer(antallSauer) {
     totaltKlippedeSauer += antallSauer;
 
-    if (totaltKlippedeSauer >= 100) {
+    if (totaltKlippedeSauer >= 170) {
         console.log("zzz zzz zzz");
         return;
     }

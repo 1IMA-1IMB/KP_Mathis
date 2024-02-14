@@ -1,5 +1,5 @@
 let totaltKlippedeSauer = 0;
-let sauer = 100;
+let sauer = 1000;
 
 function tellEnSau() {
     sauer--;
@@ -17,20 +17,20 @@ function tellNoenSauer(antall) {
 }
 
 function mistetTellingen() {
-    sauer = 100;
+    sauer = 1000;
     console.log("Tellingen er tilbake til 100 sauer.");
 }
 
 function klippSauer(antallSauer) {
     totaltKlippedeSauer += antallSauer;
 
-    if (totaltKlippedeSauer >= 100) {
+    if (totaltKlippedeSauer >= 1000) {
         console.log("zzz zzz zzz");
         return;
     }
 
     if (antallSauer > 0) {
-        console.log("Du fikk nok ull til et par sokker!");
+        console.log("D̴̻͕̜̱͊̅ṷ̷̡̧͇̞͍͈͉̖̈́̃̏̐̏͗̀̔̉̋ ̵̱͍̫̞̞̳̳͚͂͌̿̏́̽͝f̸̜͚̐̊̔̆̀̚i̵̯̎̇̆̊̌̈́̅̓͝k̸̢͖̫̟̜̞̜͎͈̗̒͒̎̔̾̕͠k̴̻̫̤̣͈̓̓̓̑̀ͅ ̶̺̺̥͖̟̲̘̦̑͛ͅn̴̬̈́͆̓̍͝o̵̱̼̬͍͕̗͉̒͆̇́̂͌̎͐̀k̸̫̼̞̞̥͐͘ ̸̟͕͇͖̪̟͉͋̇̿͑͊͋͝ͅừ̸̹̝͈͙̱̮̬͓́l̵̨̰̤̙̔́́͒͝ĺ̶̡̛̮̭̞̠̼̈́̎̂̔͘͝͠ͅ ̸̜̲͚͙͖͍̲̿͐̉́̿ͅṱ̵̛͍̜̳͉̓̇̏̓̃̈́̃̌͐ͅį̷̧͚̣̬̦͍̎̍̓̑̒͋l̸͍͎̓̚̕ ̷͎̜̞̟̒̍e̴̩̼͖̯͔̞͎̹̥͌́̿͝t̸̠͍̗͋ ̴͕͓̫̜̌p̸̨̝̱̘͛̐̿͒̋̐͐̋̚ǎ̸͔̮̳͓̐̂̇́͗̍̋̋͜͠ͅṛ̸͖͊̓̀̓̾̇̌ ̵͚̬͎͖͎̦̞͙͕̻̎s̷͓̙̘͚̃̌̆̓̎̐͝ŏ̸̡̡̩̲͍̯̪͉͔k̷̡̧̻̯͇͎̉̀̏̏͌̓̽͂̔̽k̴̨̘̪͍͍̮͍̹̝͊̌̀̃͝ͅę̶̢̼̲̻̥̥͔̄̀̀̒́̆͝ͅŗ̵̢̧̜̖̪̞̖̗̣̊̓̽͋!̷̡̨̨̧͖̘̙͈̝̦͗͌͝");
     }
     if (antallSauer > 10) {
         console.log("Du fikk nok ull til en stor genser!");
@@ -42,13 +42,13 @@ function klippSauer(antallSauer) {
         console.log("Du fikk nok ull til å lage en saue-klone!");
     }
     if (antallSauer > 80) {
-        console.log("Du fikk nok ull til et ull-hoppeslott!");
+        console.log("D̸̜̽̋̂͗͊̉u̷̗̖͌̅͊́̾͘̚͝ ̶̛̼̄͛̀̎̉̓͝f̶̭̬́̃̓̄́͘ì̴̢̛̯͚͂́̃̄̎ķ̶̣̎̽͜ķ̶͕͈̰͓̳̦͉̈́̓̏͛̾ ̶̬͔̞̂n̵͔̥̰̆̆̀̂͜ó̵̡̨̭̲̫̫k̷̦̦͙̈́̈̋̅̃̈́͛̕ ̵̠͚͖͚̼͇̻̹̾ù̸͓͍̰̪́͆̓̌̈͑l̶̢̝͚̘̙̣͕̙̈́̉̌͊̐̅̕͠l̸̦̰̫̱̬̈́̂ ̶̥̺̣̥̝͑͐͋̽̕̕͠ṭ̸̥͔̗͔̩̯̀͝͝ḭ̸͓̟̮̙̙͖̀̿͗̋̎͝l̷̫̠̊́̕ ̶̨͐͋͗̇̓̾ĕ̵͉̠̱̱̺̫̬̖̿͐̈́̽ţ̶̡̮̩̺͓́̂͌̈́̎̉͠͠ͅ ̶͓̣̬̫̟͎̣͘u̸͍̬͇̍̓͜l̷͍̺̾͂̌̾̏̏̕l̸̻͙̑̄-̸̧͕̗͈͖͂͒̅͒h̴̨̫̙̪̪͈̫̃̌̈̌́ơ̶̡̧͈̰̙̖̖̈́̈̎̀̋̎̋ṗ̵̢̧̘̱̦͎̈̊̋̂p̵̤̟͛̋͑̋̈́̄e̴̩̜̣͈̐̏ș̸̢̦̜̼͖̤̹̀̈́̈́l̸͚͍͔͉̞͈͓̮͌̽͑͠o̷͖̙͂̔̏̀̅̿͜͝ť̵̢̜̜̮̬̭͍̱͒͋̋͋ț̶̟̠̦͛͋!̶̛̤̬̓̈́̚");
     }
 }
 
 // Eksempler på bruk:
 tellEnSau();
-tellNoenSauer(5);
+tellNoenSauer(590);
 mistetTellingen();
 klippSauer(20);
 klippSauer(90);

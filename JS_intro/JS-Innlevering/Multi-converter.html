@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Multi-converter.css" />
+    <script src="Multi-converter.js"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <label for="litersInput">Enter liters:</label>
+    <input type="number" id="litersInput" placeholder="Enter Liters">
+
+    <button onclick="convertUnits()">Covert to measurements</button>
+
+    <h3>Converted Values:</h3>
+    <p id="gallonsOutput"></p>
+    <p id="ouncesOutput"></p>
+    <p id="cupsOutput"></p>
+    <p id="spiseskjeerOutput"></p>
+
+    <label for="unitsInput">Enter Units:</label>
+    <input type="number" id="unitsInput" placeholder="Enter units">
+
+    <button onclick="convertToLiters()">Convert to Liters</button>
+
+    <select id="unitType">
+        <option value="gallons">Gallons</option>
+        <option value="ounces">Ounces</option>
+        <option value="cups">Cups</option>
+        <option value="spiseskjeer">Spiseskjeer</option>
+    </select>
+
+    <h3>Converted Value:</h3>
+    <p id="litersOutput"></p>
+
+    </div>
+
+</body>
+</html>
